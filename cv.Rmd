@@ -148,4 +148,6 @@ CV %<>% print_section('publications')
 <br>
 <br>
 
-
+```{r}
+CV %<>% print_links()
+```
