@@ -69,13 +69,23 @@ CV %>% print_contact_info()
 
 
 
-Language Skills {#skills}
+<!-- Language Skills {#skills} -->
+<!-- -------------------------------------------------------------------------------- -->
+
+<!-- ```{r} -->
+<!-- CV %>% print_skill_bars() -->
+<!-- ``` -->
+
+Software Skills {#software}
 --------------------------------------------------------------------------------
 
-```{r}
-CV %>% print_skill_bars()
-```
-
+R/RStudio  
+SAS  
+Git/GitHub  
+Shiny  
+Markdown  
+SPSS  
+WinBUGS  
 
 
 Disclaimer {#disclaimer}
