@@ -51,6 +51,22 @@ Aside
 # datadrivencv::build_network_logo(CV$entries_data)
 ```
 
+<!-- These breaks are only if have no picture -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 
 ```{r}
 if(params$pdf_mode){
