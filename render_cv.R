@@ -17,7 +17,6 @@ rmarkdown::render("cv.Rmd",
                   output_file = tmp_html_cv_loc)
 
 # Convert to PDF using Pagedown
-# Windows 7 issue https://github.com/rstudio/pagedown/issues/157#issuecomment-570634712
+# If relevant, windows 7 issue https://github.com/rstudio/pagedown/issues/157#issuecomment-570634712
 pagedown::chrome_print(input = tmp_html_cv_loc,
-                       output = "acm_resume.pdf",
-                       browser = "C:/Users/Owner/Desktop/GoogleChromePortable64/GoogleChromePortable")
+                       output = "acm_resume.pdf")
