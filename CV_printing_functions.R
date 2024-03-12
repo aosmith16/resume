@@ -209,10 +209,12 @@ Links {data-icon=link}
 
 #' @description Contact information section with icons
 print_contact_info <- function(cv){
-  glue::glue_data(
-    cv$contact_info,
-    "- <i class='fa fa-{icon}'></i> {contact}"
-  ) %>% print()
-
-  invisible(cv)
+     glue::glue_data(
+          cv$contact_info,
+          "- <i class='fa fa-{icon}'></i> {contact}"
+     ) %>% 
+          gsub("fa fa-mastodon", "fa-brands fa-mastodon", .) %>% 
+          print()
+     
+     invisible(cv)
 }

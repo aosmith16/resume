@@ -51,7 +51,8 @@ Aside
 # datadrivencv::build_network_logo(CV$entries_data)
 ```
 
-![photo](ao_pic.png){width=80%}
+<!-- ![photo](ao_pic.png){width=80%} -->
+![photo](ao_pic_2022_peach.png){width=80%}
 
 <!-- These breaks are only if have no picture -->
 <!-- <br> -->
